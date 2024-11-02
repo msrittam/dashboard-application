@@ -1,0 +1,660 @@
+body{
+    background-color: #f2eeee;
+}
+.BodyWrapper{
+    width: 92%;
+    height: auto;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: #fbfbfb;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.ProfileWrappers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.SearchProfiles{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.FilterButtons{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.PlusSign{
+    width: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+.PlusSign img{
+    width: 100%;
+}
+.ProfileWrapper{
+    border-radius: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    margin-right: 10px;
+    padding: 10px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    cursor: pointer;
+}
+.avatar{
+    width: 30px;
+    margin-right: 5px;
+}
+.avatar img{
+    width: 100%;
+}
+.ProfileWrapper p{
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.NewReportHead{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.ReportHeading p{
+    margin: 0;
+    padding: 0;
+    color: #cdcdcd;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+.ToggleButtonWrapper{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-right: 10px;
+}
+.ToggleButtonWrapper p{
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+}
+.ToggleButton{
+    width: 33px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.ToggleButton img{
+    width: 100%;
+}
+.DropdownGraphWrapper{
+    background-color: #f0f0f0;
+    border-radius: 100px;
+    padding: 7px;
+    padding-left: 16px;
+    padding-right: 11px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    cursor: pointer;
+}
+.DropdownGraphWrapper p{
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+.DropdownGraph{
+    width: 30px;
+    cursor: pointer;
+}
+.ToggleButton img{
+    width: 100%;
+}
+.ToggleDropWrapper{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.ThirdDivision{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ThirdDivisionFirst{
+    width: 40%;
+    overflow-x: hidden;
+}
+.ThirdDivisionSecond{
+    width: 30%;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ThirdDivisionThird{
+    width: 30%;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.RevenueWrapper p{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+.DollarImg1Wrapper{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.DollarImg1Wrapper p{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    white-space: nowrap;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.DollarImg1Wrapper span{
+    color: #cdcdcd;
+}
+.DollarImg1{
+    width: 43px;
+    margin-right: 3px;
+}
+.DollarImg1 img{
+    width: 100%;
+}
+.RevenueCountWrapper{
+    display: flex;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    align-items: center;
+    width: fit-content;
+}
+.PinkCoverWrapper{
+    background-color: orange;
+    border-radius: 100px;
+    padding: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 10px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    cursor: pointer;
+}
+.PinkCoverWrapper p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    white-space: nowrap;
+}
+.PinkCoverWrapper span{
+    color: #cdcdcd;
+}
+.UpThumb{
+    width: 20px;
+    margin-right: 5px;
+}
+.UpThumb img{
+    width: 100%;
+}
+.ThirdDivision2First{
+    width: 40%;
+    padding: 16px;
+    margin: 8px;
+    overflow-x: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.TopSalesHeading{
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.TopSalesHeading p{
+    margin: 0;
+    padding: 0;
+    color: gray;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+.StarIconImage{
+    max-width: 25px;
+    min-width: 25px;
+}
+.StarIconImage img{
+    width: 100%;
+}
+.ThirdDivision2Dollar{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.ThirdDivision2Image{
+    max-width: 35px;
+    min-width: 35px;
+    margin-right: 3px;
+}
+.ThirdDivision2Image img{
+    width: 100%;
+}
+.ThirdDivision2Dollar p{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.ThirdDivision2Avatar{
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ThirdDivision2Flex{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.ThirdDivision2Flex p{
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.RightArrowImage{
+    min-width: 16px;
+    max-width: 16px;
+    cursor: pointer;
+    background-color: #cdcdcd;
+    border-radius: 10px;
+    padding: 6px;
+}
+.RightArrowImage img{
+    width: 100%;
+}
+.DealValueWinRate{
+    width: 40%;
+    padding: 16px;
+    margin: 8px;
+    overflow-x: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.DealValueWinRate p{
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.PinkCoverWrapper2{
+    background-color: orange;
+    border-radius: 100px;
+    padding: 7px;
+    margin: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+.PinkCoverWrapper2 p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    white-space: nowrap;
+}
+.PinkCoverWrapper3{
+    margin: 3px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+.PinkCoverWrapper3 p{
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.GrayCoverWrapper{
+    background-color: #cdcdcd;
+    border-radius: 100px;
+    padding: 7px;
+    margin: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+.GrayCoverWrapper p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    white-space: nowrap;
+}
+.FourthDivision{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+.FourthDivisionProfiles{
+    width: 89%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #f0f0f0;
+    justify-content: space-between;
+}
+.FourthDivisionButton{
+    margin: 0;
+    width: 10%;
+    color: white;
+    padding: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    border-radius: 100px;
+    background-color: black;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.FourthDivisionWhole{
+    width: 25%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    align-items: center;
+    background-color: white;
+    margin: 9px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 4px;
+    padding-right: 10px;
+    padding: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.FourthDivisionProfileWrapper{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.FourthDivisionWhole p{
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    color: gray;
+}
+.FourthDivisionProfileWrapper p{
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    color: black;
+}
+.FourthDivisionAvatar{
+    width: 30px;
+    margin-right: 5px;
+}
+.FourthDivisionAvatar img{
+    width: 100%;
+}
+.FifthDivision{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.FifthDivisionFirst{
+    width: 50%;
+    margin: 8px;
+    overflow-x: hidden;
+}
+.FifthDivisionFirst1Row{
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-between;
+}
+.FifthDivision1Column{
+    width: 100%;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 30px;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.FifthDivision2Column{
+    width: 100%;
+    margin: 4px;
+    padding: 16px;
+    border-radius: 30px;
+    background-color: #cdcdcd;
+}
+.FifthDivisionFirst2Row{
+    max-width: 100%;
+    display: flex;
+    padding: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    overflow-x: hidden;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #cdcdcd;
+}
+.FifthDivisionFilterWrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+}
+.FifthDropdown{
+    min-width: 30px;
+    max-width: 30px;
+    margin: 8px;
+}
+.FifthDropdown img{
+    width: 100%;
+}
+.FifthDivisionFilter{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #f0f0f0;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.FifthDivisionFilter p{
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    margin-right: 8px;
+}
+.SquareFilterWrapper {
+    width: 20px;
+}
+.SquareFilterWrapper img{
+    width: 100%;
+}
+.FifthDivisionProfileWrap{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    border-radius: 20px;
+    margin: 8px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.FifthDivisionProfile{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.FifthDivisionAvatar{
+    width: 30px;
+    margin-right: 8px;
+}
+.FifthDivisionAvatar img{
+    width: 100%;
+}
+.FifthDivisionProfile p{
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    margin-right: 8px;
+    color: gray;
+}
+.FifthDivisionCount{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.FifthDivisionCount p{
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.FifthDivisionPercentage{
+    padding: 5px 8px;
+    margin-left: 8px;
+    border-radius: 10px;
+    background-color: #cdcdcd;
+}
+.FifthDivisionPercentage p{
+    font-weight: 500;
+    color: white;
+}
+.FifthDivisionBarChart{
+    max-width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 8px;
+}
+.FifthDivisionBars{
+    max-width: 100%;
+    max-height: 80%;
+    display: flex;
+    overflow-x: hidden;
+    align-items: flex-start;
+    justify-content: center;
+    overflow-x: hidden;
+    border-radius: 20px;
+    margin: 4px;
+    padding: 11px;
+    background-color: white;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.FifthDivisionAvatar2{
+    min-width: 30px;
+    max-width: 30px;
+}
+.FifthDivisionAvatar2 img{
+    width: 100%;
+}
+.DealsAmount{
+    padding: 0;
+    margin: 0;
+    margin-left: 8px;
+    margin-right: 8px;
+    white-space: nowrap;
+    color: gray;
+}
+.ReferrerCategory{
+    padding: 0;
+    margin: 0;
+    margin-left: 8px;
+    margin-right: 8px;
+    white-space: nowrap;
+}
+.FifthDivisionSecond{
+    width: 50%;
+    margin: 8px;
+    padding: 8px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.FifthDivisionSecondHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.FifthDivisionHeadWrapper{
+    width: 100%;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.FifthDivisionSecondHead p{
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    color: gray;
+}
+.FifthDivisionSecondBody p{
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+}
+.FifthDivisionSecondBody{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    border-radius: 20px;
+    margin-top: 8px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
